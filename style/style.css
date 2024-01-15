@@ -222,3 +222,33 @@ section {
   transform: translate(-50%, -50%);
   z-index: 9;
 }
+
+/* Benefits Section style */
+.benefits .section_title {
+  text-align: center;
+}
+
+.benefits .benefits_list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.benefits .benefits_item {
+  width: calc(33.33% - 27px);
+  padding: 0 40px;
+}
+
+.benefits_num {
+  font-size: 60px;
+  display: inline-block;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--pr-color);
+}
+
+.benefits_p {
+  font-size: 20px;
+  color: #4b4b4b;
+}
